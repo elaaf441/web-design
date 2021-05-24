@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    /* background: linear-gradient(rgba(0,0,0,0,5),#00906), url(./Barber_Shop_img/banner.jpg); */
+background:linear-gradient(rgba(0,0,0,0.5),#009688), url(./Barber_Shop_img/banner.jpg);
+   background-size:cover;
+background-position:center;
+height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.ban-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+
+}
+.ban-text h1{
+    font-size: 130px;
+    font-family: 'Dancing Script', cursive;
+}
+.ban-text p{
+    font-size :38px;
+    font-style: italic;
+    font-family: 'Cookie', cursive;
+}
+.ban-btn{
+    margin-top: auto;
+    margin-left: 450px;
+}
+.ban-btn a{
+    width: 110px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px; 
+color: #fff;
+border: .5px solid #fff;
+position: relative;
+/* z-index: -1; */
+
+
+}
+.ban-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    /* z-index: -1; */
+    /* transition: 0.5s; */
+}
+.ban-btn a :hover span{
+/* width: 100%; */
+}
+
+
+
+
+
+
+
